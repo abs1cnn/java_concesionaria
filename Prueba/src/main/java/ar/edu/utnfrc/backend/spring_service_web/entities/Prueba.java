@@ -38,4 +38,19 @@ public class Prueba {
 
     @Column(name = "comentarios", length = 500)  // Comentarios con una longitud máxima de 500 caracteres
     private String comentarios;
+
+    @Column(name = "kilometros")
+    private Double kilometros;
+
+    public String getInicio() {
+        return fechaHoraInicio;
+    }
+
+    public String getFin() {
+        return fechaHoraFin;
+    }
+
+    public double getKilometros() {
+        return kilometros;
+    }
 }

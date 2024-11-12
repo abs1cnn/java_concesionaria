@@ -82,6 +82,7 @@ public class PruebaController {
     }
 
 
+
     public PruebaController(PruebaService pruebaService) {
         this.pruebaService = pruebaService;
     }
@@ -90,5 +91,22 @@ public class PruebaController {
     public List<Prueba> listarPruebasEnCurso() {
         return pruebaService.listarPruebasEnCurso();
     }
+
+
+
+    // Validar la posición de un vehículo usando PathVariable
+    @GetMapping("/validar-posicion/{lat}/{lon}/{id}")
+    public ResponseEntity<String> validarPosicionVehiculo(
+            @PathVariable double lat,
+            @PathVariable double lon,
+            @PathVariable Integer id) {
+        try {
+            pruebaService.validarPosicionVehiculo(lat, lon, id);
+            return ResponseEntity.ok("El vehiculo se encuentra en zona segura.");
+        } catch (IllegalArgumentException e) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
+        }
+    }
+
 
 }

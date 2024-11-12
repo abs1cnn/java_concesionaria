@@ -1,0 +1,11 @@
+localhost:8888/vehiculo
+localhost:8888/prueba
+localhost:8888/empleado
+localhost:8888/cliente
+
+
+GATEWAY
+localhost:8080/vehiculo
+localhost:8080/prueba
+localhost:8080/empleado
+localhost:8080/cliente

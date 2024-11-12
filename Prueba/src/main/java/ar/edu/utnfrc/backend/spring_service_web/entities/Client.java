@@ -44,4 +44,7 @@ public class Client {
     @Transient
     @OneToMany(mappedBy = "client")
     private List<Prueba> pruebas;
+
+    @Column(name = "nro_telefono", nullable = false)  // Número de teléfono
+    private Integer nroTelefono;
 }

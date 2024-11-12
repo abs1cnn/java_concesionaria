@@ -10,4 +10,8 @@ public interface PruebaService extends Service<Prueba, Integer> {
     Prueba update(Integer id, Prueba entity); // Método para actualizar una prueba
 
     Prueba finalizarPrueba(Integer pruebaId, String comentario);
+
+    void validarPosicionVehiculo(double lat, double lon, Integer id);
+
+    public List<Prueba> listarPruebasFinalizadas();
 }

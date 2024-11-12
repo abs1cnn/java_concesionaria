@@ -10,4 +10,6 @@ public class SpringServiceWebApplication {
 		SpringApplication.run(SpringServiceWebApplication.class, args);
 	}
 
+	// Notificar interesados
+
 }

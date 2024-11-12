@@ -29,4 +29,8 @@ public class Vehiculo {
     @Transient
     @OneToMany(mappedBy = "vehiculo")
     private List<Prueba> pruebas;
+
+    public List<Prueba> getPruebas(){
+        return pruebas;
+    }
 }
