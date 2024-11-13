@@ -3,6 +3,7 @@ TRABAJO PRACTICO INTEGRADOR - CONCESIONARIA
 
     - MATERIA: Backend de Aplicaciones (Electiva de 3er año)
     - CARRERA: Ingeniería en Sistemas de Información
+    - PROPIETARIOS: Canaan Abigail Sara - Cristian Leonel Castro
 -------------------------------------------------------
 DESCRIPCION
 - Este proyecto es un sistema para gestionar pruebas de manejo en una concesionaria de autos. 
