@@ -18,9 +18,12 @@ de riesgo durante el recorrido. Situaciones de riesgo corresponde a cuando el au
 | Tecnología  | Descripción                                                             |
 |-------------|-------------------------------------------------------------------------|
 | **STRING BOOT**   | Framework para construir microservicios robustos y escalables en Java.              |
-| **JPA**    | Java Persistence API, usada para mapear objetos Java a tablas de bases de datos relacionales.  |
 | **API GATEWAY** | Gestiona el enrutamiento, autenticación y balanceo de carga entre microservicios.     |
 | **API EXTERNA** | API utilizada para consumir datos de coordenadas sobre zonas peligrosas y ubicaciones.                    |
+| **MOCKITO_CORE** | Biblioteca de Java utilizada para pruebas unitarias.     |
+| **SPRING SECURITY** | marco de trabajo de seguridad para aplicaciones Java                    |
+| **SPRING DATA JPA** | facilita el acceso a bases de datos en aplicaciones Java utilizando Java Persistence API (JPA). |
+---
 ---
 
 CARACTERISTICAS PRINCIPALES:
