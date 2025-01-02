@@ -12,11 +12,16 @@ y seguimiento de la prueba, además de enviar notificaciones en tiempo real si o
 de riesgo durante el recorrido. Situaciones de riesgo corresponde a cuando el auto localizado pasa
  por zonas no deseadas o se aleja del rango de la concesionaria
 
-TECNOLOGIAS UTILIZADAS
-- Spring Boot: Para la construcción de cada microservicio.
-- JPA (Java Persistence API): Para el acceso y manejo de datos en la base de datos.
-- API Gateway: Para enrutamiento y balanceo de carga entre microservicios.
-- API Externa: Proporcionada para obtener coordenadas de zonas peligrosas y la ubicación de la concesionaria.
+---
+### **Tecnologías Utilizadas**
+
+| Tecnología  | Descripción                                                             |
+|-------------|-------------------------------------------------------------------------|
+| **STRING BOOT**   | Framework para construir microservicios robustos y escalables en Java.              |
+| **JPA**    | Java Persistence API, usada para mapear objetos Java a tablas de bases de datos relacionales.  |
+| **API GATEWAY** | Gestiona el enrutamiento, autenticación y balanceo de carga entre microservicios.     |
+| **API EXTERNA** | API utilizada para consumir datos de coordenadas sobre zonas peligrosas y ubicaciones.                    |
+---
 
 CARACTERISTICAS PRINCIPALES:
 - Gestión de pruebas de manejo: Los clientes pueden solicitar pruebas de manejo de vehículos específicos.
